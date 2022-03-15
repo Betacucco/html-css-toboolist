@@ -25,3 +25,27 @@ display: inline;
     margin-right: auto;
     margin-bottom: 5%;
 }
+
+#button1{
+        outline: none;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 10px;
+        border: solid 1px;
+        background: #0095cd;
+        border-radius: 8px;
+}
+
+#button2{
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: solid 1px;
+    background:lightgray;
+    border-radius: 8px;   
+}
