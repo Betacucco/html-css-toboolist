@@ -48,28 +48,45 @@ display: inline;
     border-radius: 8px;   
 }
 
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
 .done{
-    display: inline;
-    width: 5px;
-    height: 5px;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
 
+    border: 1px solid green;
     color: green;
-    border-color: green;
 
+    font-size: 10px;
+    text-align: center;
+
+    border-radius: 50%;
+}
+
+.wrong{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+
+    border: 1px solid red;
+    color: red;
+
+    font-size: 10px;
     text-align: center;
 
     border-radius: 50%;
 }
 
 .editorial{
-    display: inline-block;
-    width: 5px;
-    height: 5px;
-
-    color: green;
-    border-color: green;
-
     text-align: center;
+    color: #fff;
+    padding: 5px 10px;
+    border: solid 1px;
+    background: #0095cd;
+    border-radius: 12px;
 
-    border-radius: 50%;
+    font-size: 10px;
 }
