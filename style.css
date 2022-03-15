@@ -1,7 +1,10 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Intestazione con logo e titolo all'interno di container*/
 #logo{
     vertical-align: middle;
     height: 80%;
@@ -14,18 +17,15 @@ display: inline;
 
 #container{
     background-color: white;
-    line-height: 80px;
-    height: 80px;
-   
+    line-height: 60px;
+    margin-top: 2px;
+    height: 70px;
+    width: 100%;
 }
+/*Fine intestazione*/
 
-.contents{
-    margin-top: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 5%;
-}
 
+/*Prima parte del corpo con i button*/
 #button1{
         outline: none;
         text-align: center;
@@ -47,14 +47,10 @@ display: inline;
     background:lightgray;
     border-radius: 8px;   
 }
+/*Fine prima parte del corpo*/
 
-body{
-font-family: Arial, Helvetica, sans-serif;
-}
 
-.distance{
-    margin-bottom: 15px;
-}
+/*Seconda parte del corpo con la creazione di box diverse*/
 .done{
     display: inline-block;
     width: 15px;
@@ -148,3 +144,43 @@ font-family: Arial, Helvetica, sans-serif;
 
     font-size: 8px;
 }
+/*Fine creazione box*/
+
+/*Con main centro il corpo intero al centro*/
+main{  
+   width: 70%;
+   height: 50%;
+   margin: 15px auto 5px auto;
+   text-align: center;
+   background-color: white;
+
+   border-radius: 8px;
+}
+/*Con i due center imposto come deve andare il testo e le varie modifiche su di esso
+E con distance la distanza tra i vari punti della lista*/
+#center1{
+    text-align: left;
+    border-bottom: 2px lightgrey solid;
+    padding: 10px 25px 5px ;
+    margin-top: 30px;
+}
+
+#center2{
+    text-align: left;
+    border-bottom: 2px lightgrey solid;
+    padding: 10px 25px 5px ;
+}
+
+.distance{
+    margin-bottom: 18px;
+}
+/*fine center*/
+
+
+/*Con body modifico la scritta e il colore in background*/
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    }
+    
+/*Fine body*/
