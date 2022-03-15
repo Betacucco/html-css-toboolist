@@ -28,7 +28,6 @@ display: inline;
 
 #button1{
         outline: none;
-        cursor: pointer;
         text-align: center;
         text-decoration: none;
         color: #fff;
@@ -40,7 +39,6 @@ display: inline;
 
 #button2{
     outline: none;
-    cursor: pointer;
     text-align: center;
     text-decoration: none;
     color: #fff;
@@ -48,4 +46,30 @@ display: inline;
     border: solid 1px;
     background:lightgray;
     border-radius: 8px;   
+}
+
+.done{
+    display: inline;
+    width: 5px;
+    height: 5px;
+
+    color: green;
+    border-color: green;
+
+    text-align: center;
+
+    border-radius: 50%;
+}
+
+.editorial{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+
+    color: green;
+    border-color: green;
+
+    text-align: center;
+
+    border-radius: 50%;
 }
